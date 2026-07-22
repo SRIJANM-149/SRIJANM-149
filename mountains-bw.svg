@@ -1,0 +1,63 @@
+<svg width="100%" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="900" height="320" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#ffffff">
+    <circle cx="70" cy="40" r="1.4"/>
+    <circle cx="150" cy="25" r="1.1"/>
+    <circle cx="260" cy="55" r="1.6"/>
+    <circle cx="340" cy="20" r="1"/>
+    <circle cx="430" cy="45" r="1.3"/>
+    <circle cx="520" cy="18" r="1"/>
+    <circle cx="610" cy="50" r="1.5"/>
+    <circle cx="700" cy="30" r="1.1"/>
+    <circle cx="790" cy="42" r="1.4"/>
+    <circle cx="850" cy="20" r="1"/>
+    <circle cx="30" cy="80" r="1"/>
+    <circle cx="470" cy="70" r="0.9"/>
+    <circle cx="870" cy="75" r="1.2"/>
+  </g>
+
+  <!-- moon -->
+  <circle cx="800" cy="55" r="26" fill="#ffffff" opacity="0.92"/>
+  <circle cx="810" cy="48" r="24" fill="#000000"/>
+
+  <!-- back mountain range, darkest gray -->
+  <path d="M0,220 L60,150 L120,200 L200,110 L270,190 L340,130 L410,205 L480,120 L560,195 L630,140 L700,210 L780,125 L850,195 L900,150 L900,320 L0,320 Z"
+        fill="#2b2b2b"/>
+
+  <!-- mid mountain range, mid gray -->
+  <path d="M0,260 L80,180 L150,230 L230,150 L310,235 L390,165 L470,240 L550,155 L630,235 L710,170 L790,230 L860,180 L900,215 L900,320 L0,320 Z"
+        fill="#5c5c5c"/>
+
+  <!-- front mountain range, lightest gray with snow caps -->
+  <path d="M0,300 L100,210 L170,260 L260,190 L340,265 L430,200 L510,270 L600,195 L680,265 L760,205 L840,255 L900,225 L900,320 L0,320 Z"
+        fill="#9a9a9a"/>
+
+  <!-- snow caps on front range -->
+  <g fill="#ffffff">
+    <polygon points="100,210 88,228 112,228"/>
+    <polygon points="260,190 246,210 274,210"/>
+    <polygon points="430,200 416,220 444,220"/>
+    <polygon points="600,195 586,215 614,215"/>
+    <polygon points="760,205 747,224 773,224"/>
+  </g>
+
+  <!-- ground fog drifting across the front range -->
+  <g opacity="0.35">
+    <ellipse cx="200" cy="300" rx="220" ry="18" fill="#ffffff">
+      <animate attributeName="cx" values="150;350;150" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="650" cy="295" rx="180" ry="16" fill="#ffffff">
+      <animate attributeName="cx" values="600;750;600" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+</svg>
