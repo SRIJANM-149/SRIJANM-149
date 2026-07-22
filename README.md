@@ -5,79 +5,36 @@
 </p>
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=SrijanMishra.SrijanMishra&left_color=royalblue&right_color=black" alt="visitor badge" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=SRIJANM-149.SRIJANM-149&left_color=royalblue&right_color=black" alt="visitor badge" />
 </p>
 
-## About me:
+# 💫 About Me:
 
-- 🔬 Research-oriented — I enjoy digging into problems deeply rather than just shipping quick solutions
-- 🌱 Currently exploring new ideas and sharpening my technical foundations
-- 👯 Looking to collaborate on research-driven and technical projects
-- 💬 Ask me about [topic you want to be known for]
-- 📫 How to reach me: [your email]
-- ⚡ Fun fact: [add something fun about yourself]
+🔭 I'm currently working on Stochastic and Quantitative Finance, Econometrics and ML projects.<br><br>
+🌱 I'm currently learning Reinforcement Learning, Quantitative Trading, and Publication Documentation.<br><br>
+👯 I'm looking to collaborate on Machine Learning, Quantitative Finance, Data Analytics and Open Source projects.<br><br>
+🤔 I'm currently doing an expository study on Stochastic Calculus, Machine Learning and Stochastic Control.<br><br>
+💬 Ask me about Kevin De Bruyne, Wimpy Kid & my Political opinion.<br><br>
+📫 How to reach me: srijanmishra070306@gmail.com<br><br>
+⚡ Fun fact: I enjoy playing FC26 and Matiks :)
 
-## Languages and Tools
+# 💻 Tech Stack:
 
-<div align="left">
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-  <!-- Programming Languages -->
-  <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30px" alt="python logo" /></code>
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30px" alt="javascript logo" /></code>
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="30px" alt="c++ logo" /></code>
-    <code><img src="https://skillicons.dev/icons?i=r" width="30px" alt="r logo" /></code>
-  </div>
+# 📊 GitHub Stats:
 
-  <!-- Research / Data Tools -->
-  <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="30" alt="tensorflow logo" /></code>
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="30" alt="pytorch logo" /></code>
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="30" alt="numpy logo" /></code>
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="30" alt="pandas logo" /></code>
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="30" alt="matplotlib logo" /></code>
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="30" alt="scikit-learn logo" /></code>
-  </div>
+![](https://github-readme-stats.shion.dev/api?username=SRIJANM-149&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=SRIJANM-149&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=SRIJANM-149&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-  <!-- DevOps & Tools -->
-  <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="30" alt="git logo" /></code>
-    <code><img src="https://skillicons.dev/icons?i=github" width="30" alt="github logo" /></code>
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" width="30" alt="latex logo" /></code>
-  </div>
+---
 
-  <!-- Other Tools -->
-  <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="30" alt="vscode logo" /></code>
-    <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="30" alt="jupyter logo" /></code>
-  </div>
+## 🏆 Trophies
 
-</div>
+[![Trophies](https://github-profile-trophy.vercel.app/?username=SRIJANM-149&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
-## Research & Interests
-
-- **Areas**: [fill in your research areas, e.g. Machine Learning, Applied Math, Game Theory]
-- **Currently reading / working through**: [papers, courses, or topics]
-- **Methods & Concepts**: [e.g. Numerical Analysis, Statistical Inference, Optimization]
-
-## My Journey
-
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-  <img width="412.5px" src="https://srijan-readme-stats.vercel.app/api?username=SrijanMishra&show=reviews,discussions_started,discussions_,prs_merged,prs_merged_percentage&show_icons=true&theme=tokyonight">
-  <img width="412.5px" src="https://srijan-readme-stats.vercel.app/api/top-langs/?username=SrijanMishra&layout=compact&theme=tokyonight&langs_count=10" />
-  <img width="440px" src="https://srijan-readme-activity-graph.vercel.app/graph?username=SrijanMishra&theme=github">
-  <img width="385px" src="https://srijan-readme-streak-stats.vercel.app/?user=SrijanMishra&theme=onedark" />
-</div>
-
-## My Rewards
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=SrijanMishra&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
-
-### Badges
-
-<!--START_SECTION:badges-->
-<!-- add your badges here, e.g. certifications, competitions -->
-<!--END_SECTION:badges-->
+---
 
 ## ⚽ On the pitch...
 
@@ -85,11 +42,7 @@
   <img src="assets/football-animation.svg" alt="football animation" width="100%" />
 </p>
 
-<details>
-  <summary><strong>Vibing to... 🎵</strong></summary>
+---
 
-&nbsp;<div align="center">
-  [![Spotify](https://srijan-spotify-now-playing.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://srijan-spotify-now-playing.vercel.app/)
-</div>
-
-</details>
+[![](https://komarev.com/ghpvc/?username=SRIJANM-149&icon=0&color=0)](https://visitcount.itsvg.in)
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
