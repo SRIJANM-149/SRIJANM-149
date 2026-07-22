@@ -1,17 +1,12 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e6b2f,100:134d20&height=200&section=header&text=Srijan%20Mishra&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Research%20%7C%20Quant%20Finance%20%7C%20ML&descAlignY=55&descSize=18" alt="header banner" width="100%" />
-</p>
-
-<p align="center">
   <marquee behavior="scroll" direction="left" scrollamount="6">
-    &nbsp;&nbsp;<b>🧮 Mathematics and Computing:</b> Probability Theory&nbsp;•&nbsp;Stochastic Processes&nbsp;•&nbsp;Stylized Statistical Properties &nbsp;•&nbsp;Optimization&nbsp;•&nbsp;Time Series Analysis&nbsp;•&nbsp;Quantum Computing&nbsp;•&nbsp;Scientific Computing
+    &nbsp;&nbsp;<b>🧮 Mathematics and Computing:</b> Probability Theory&nbsp;•&nbsp;Stochastic Processes&nbsp;•&nbsp;Stylized Statistical Properties &nbsp;•&nbsp;Optimization&nbsp;•&nbsp;Time Series Analysis&nbsp;•&nbsp; Quantum Computing&nbsp;•&nbsp; Scientific Computing
     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <b>💰 Finance:</b> Quantitative Finance&nbsp;•&nbsp;Portfolio Optimization&nbsp;•&nbsp;Risk Management&nbsp;•&nbsp;Derivatives Pricing&nbsp;•&nbsp;Financial Econometrics&nbsp;•&nbsp;Market Modelling
     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <b>🤖 Artificial Intelligence:</b> Machine Learning&nbsp;•&nbsp;Deep Learning&nbsp;•&nbsp;Footabll Analytics&nbsp;•&nbsp;Reproducible Research&nbsp;•&nbsp;Model Validation
   </marquee>
 </p>
-
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=SRIJANM-149.SRIJANM-149&left_color=royalblue&right_color=black" alt="visitor badge" />
 </p>
@@ -42,10 +37,10 @@
 
 ---
 
-## ⚽ On the pitch...
+## 🏔️ 
 
 <p align="center">
-  <img src="football-animation.svg" alt="football animation" width="100%" />
+  <img src="mountains-bw.svg" alt="black and white mountains" width="100%" />
 </p>
 
 ---
@@ -56,5 +51,5 @@
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" alt="divider" />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:134d20,100:1e6b2f&height=120&section=footer" alt="footer banner" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1140,100:e8332a&height=120&section=footer" alt="footer banner" width="100%" />
 </p>
