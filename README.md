@@ -1,7 +1,13 @@
 <h1 align="center">Hi, I'm Srijan Mishra 👋</h1>
 
 <p align="center">
-  <img src="assets/profile.png" width="150" style="border-radius:50%;" alt="profile picture" />
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    &nbsp;&nbsp;<b>🧮 Mathematics:</b> Probability Theory&nbsp;•&nbsp;Stochastic Processes&nbsp;•&nbsp;Bayesian Statistics&nbsp;•&nbsp;Optimization&nbsp;•&nbsp;Time Series Analysis&nbsp;•&nbsp;Numerical Methods
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <b>💰 Finance:</b> Quantitative Finance&nbsp;•&nbsp;Portfolio Optimization&nbsp;•&nbsp;Risk Management&nbsp;•&nbsp;Derivatives Pricing&nbsp;•&nbsp;Financial Econometrics&nbsp;•&nbsp;Market Modelling
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <b>🤖 Artificial Intelligence:</b> Machine Learning&nbsp;•&nbsp;Deep Learning&nbsp;•&nbsp;Financial AI&nbsp;•&nbsp;Scientific Computing&nbsp;•&nbsp;Reproducible Research&nbsp;•&nbsp;Model Validation
+  </marquee>
 </p>
 
 <p align="center">
