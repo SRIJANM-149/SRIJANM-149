@@ -2,11 +2,11 @@
 
 <p align="center">
   <marquee behavior="scroll" direction="left" scrollamount="6">
-    &nbsp;&nbsp;<b>🧮 Mathematics:</b> Probability Theory&nbsp;•&nbsp;Stochastic Processes&nbsp;•&nbsp;Bayesian Statistics&nbsp;•&nbsp;Optimization&nbsp;•&nbsp;Time Series Analysis&nbsp;•&nbsp;Numerical Methods
+    &nbsp;&nbsp;<b>🧮 Mathematics and Computing:</b> Probability Theory&nbsp;•&nbsp;Stochastic Processes&nbsp;•&nbsp;Stylized Statistical Properties &nbsp;•&nbsp;Optimization&nbsp;•&nbsp;Time Series Analysis&nbsp;•&nbsp; Quantum Computing&nbsp;•&nbsp; Scientific Computing
     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <b>💰 Finance:</b> Quantitative Finance&nbsp;•&nbsp;Portfolio Optimization&nbsp;•&nbsp;Risk Management&nbsp;•&nbsp;Derivatives Pricing&nbsp;•&nbsp;Financial Econometrics&nbsp;•&nbsp;Market Modelling
     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <b>🤖 Artificial Intelligence:</b> Machine Learning&nbsp;•&nbsp;Deep Learning&nbsp;•&nbsp;Financial AI&nbsp;•&nbsp;Scientific Computing&nbsp;•&nbsp;Reproducible Research&nbsp;•&nbsp;Model Validation
+    <b>🤖 Artificial Intelligence:</b> Machine Learning&nbsp;•&nbsp;Deep Learning&nbsp;•&nbsp;Footabll Analytics&nbsp;•&nbsp;Reproducible Research&nbsp;•&nbsp;Model Validation
   </marquee>
 </p>
 
