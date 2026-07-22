@@ -1,3 +1,5 @@
+<h1 align="center">Kon'nichiwa, Srijan Mishra Here </h1>
+
 <p align="center">
   <marquee behavior="scroll" direction="left" scrollamount="6">
     &nbsp;&nbsp;<b>🧮 Mathematics and Computing:</b> Probability Theory&nbsp;•&nbsp;Stochastic Processes&nbsp;•&nbsp;Stylized Statistical Properties &nbsp;•&nbsp;Optimization&nbsp;•&nbsp;Time Series Analysis&nbsp;•&nbsp; Quantum Computing&nbsp;•&nbsp; Scientific Computing
@@ -6,9 +8,6 @@
     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <b>🤖 Artificial Intelligence:</b> Machine Learning&nbsp;•&nbsp;Deep Learning&nbsp;•&nbsp;Footabll Analytics&nbsp;•&nbsp;Reproducible Research&nbsp;•&nbsp;Model Validation
   </marquee>
-</p>
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=SRIJANM-149.SRIJANM-149&left_color=royalblue&right_color=black" alt="visitor badge" />
 </p>
 
 # 💫 About Me:
@@ -41,15 +40,4 @@
 
 <p align="center">
   <img src="mountains-bw.svg" alt="black and white mountains" width="100%" />
-</p>
-
----
-
-[![](https://komarev.com/ghpvc/?username=SRIJANM-149&icon=0&color=0)](https://visitcount.itsvg.in)
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" alt="divider" />
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1140,100:e8332a&height=120&section=footer" alt="footer banner" width="100%" />
 </p>
