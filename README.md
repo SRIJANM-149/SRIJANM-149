@@ -12,10 +12,10 @@
 
 # 💫 About Me:
 
-🔭 I'm currently working on Stochastic and Quantitative Finance, Econometrics and ML projects.<br><br>
-🌱 I'm currently learning Reinforcement Learning, Quantitative Trading, and Publication Documentation.<br><br>
-👯 I'm looking to collaborate on Machine Learning, Quantitative Finance, Data Analytics and Open Source projects.<br><br>
-🤔 I'm currently doing an expository study on Stochastic Calculus, Machine Learning and Stochastic Control.<br><br>
+🔭 currently working on Stochastic and Quantitative Finance, Econometrics and ML projects.<br><br>
+🌱 currently learning Reinforcement Learning, Quantitative Trading, and Publication Documentation.<br><br>
+👯 looking to collaborate on Machine Learning, Quantitative Finance, Data Analytics and Open Source projects.<br><br>
+🤔 currently doing an expository study on Stochastic Calculus, Machine Learning and Stochastic Control.<br><br>
 💬 Ask me about Kevin De Bruyne, Wimpy Kid & my Political opinion.<br><br>
 📫 How to reach me: srijanmishra070306@gmail.com<br><br>
 ⚡ Fun fact: I enjoy playing FC26 and Matiks :)
