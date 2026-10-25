@@ -13,14 +13,11 @@
 
 ### 💫 About me
 
-I'm a maths student at **SVNIT Surat** and **Head of Quant Engineering** at [Noether Meridian](https://noethermeridian.com/). Most of my job is being the person who asks *"are we sure?"*: is the pricing code actually right, does the backtest survive once you count every idea that didn't work, and can someone else rerun it and get the same numbers?
+<p align="center">
+  <img src="about.svg" alt="let srijan = Quant { home: Vadodara, India; degree: Int. M.Sc. Mathematics, SVNIT Surat; role: Head of Quant Engineering, Noether Meridian; speaks: Python, Rust, C++, R, LaTeX; exploring: stochastic control, RL for trading, Rust; believes: a backtest is guilty until proven innocent; weekends: FC26, Matiks, KDB through-ball compilations; ask me about: De Bruyne, Wimpy Kid, politics }" width="100%"/>
+</p>
 
-- 🔭 **Working on** stochastic & quantitative finance, econometrics and ML, plus [PremierLock](https://github.com/SRIJANM-149/Premiere-Lock) on the side
-- 🌱 **Learning** reinforcement learning, quantitative trading and more Rust
-- 📖 **Reading** stochastic calculus, stochastic control and ML, written up in [Expository-Study](https://github.com/SRIJANM-149/Expository-Study)
-- 👯 **Open to** collaborating on quant finance, ML, data analytics and open source
-- 💬 **Ask me about** Kevin De Bruyne, Wimpy Kid and my political opinions
-- ⚡ **Fun fact:** I spend too much time on FC26 and Matiks :)
+<p align="center"><img src="divider.svg" alt="" width="100%"/></p>
 
 ### 🧭 What I focus on
 
@@ -40,6 +37,8 @@ I'm a maths student at **SVNIT Surat** and **Head of Quant Engineering** at [Noe
     </td>
   </tr>
 </table>
+
+<p align="center"><img src="divider.svg" alt="" width="100%"/></p>
 
 ### 🛠️ Tech stack
 
@@ -63,6 +62,8 @@ I'm a maths student at **SVNIT Surat** and **Head of Quant Engineering** at [Noe
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
   <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva"/>
 </p>
+
+<p align="center"><img src="divider.svg" alt="" width="100%"/></p>
 
 ### 🚀 Featured work
 
@@ -109,12 +110,16 @@ I'm a maths student at **SVNIT Surat** and **Head of Quant Engineering** at [Noe
   </tr>
 </table>
 
+<p align="center"><img src="divider.svg" alt="" width="100%"/></p>
+
 ### 📄 Papers
 
 - **A Pre-Registered Protocol for Testing a Local Intraday Regime-Break Candidate in the S&P/TSX Composite**<br/>
   A. K. Touré, **S. Mishra**, D. Shah · *Preprint, Sep 2026* · [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22706824-1682D4?style=flat-square)](https://doi.org/10.5281/zenodo.22706824)
 - **Quantitative Research Under Real-World Constraints**<br/>
   A. K. Touré, **S. Mishra** · *Release paper for ASRQuant 1.3.0, Sep 2026* · [PDF](https://github.com/Alpha-Stochastic-Research/asr-quant/blob/main/paper/ASRQuant_paper.pdf)
+
+<p align="center"><img src="divider.svg" alt="" width="100%"/></p>
 
 ### 📊 GitHub stats
 
@@ -125,6 +130,8 @@ I'm a maths student at **SVNIT Surat** and **Head of Quant Engineering** at [Noe
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=SRIJANM-149&theme=transparent&hide_border=true&ring=f5b041&fire=f5b041&currStreakLabel=f5b041&sideLabels=9a9aa6&dates=9a9aa6&currStreakNum=9a9aa6&sideNums=9a9aa6" alt="GitHub streak"/>
 </p>
+
+<p align="center"><img src="divider.svg" alt="" width="100%"/></p>
 
 <p align="center">
   <img src="mountains-bw.svg" alt="Black and white mountains" width="100%"/>
