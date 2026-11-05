@@ -25,7 +25,7 @@
   <tr>
     <td width="33%" valign="top">
       <b>🧮 Stochastic processes &amp; statistics</b><br/><br/>
-      Probability theory · Statistics · Stochastic processes · Stylized facts · Optimization · Time series · Scientific &amp; quantum computing
+      Probability theory · Stylized facts · Optimization · Time series
     </td>
     <td width="33%" valign="top">
       <b>💰 Quantitative finance</b><br/><br/>
