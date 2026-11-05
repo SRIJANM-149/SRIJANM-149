@@ -16,7 +16,8 @@ IST = timezone(timedelta(hours=5, minutes=30))
 TOKEN = os.environ["GH_TOKEN"]
 GOLD, GREY = "#f5b041", "#9a9aa6"
 FONT = "font-family=\"'Segoe UI',Ubuntu,Sans-Serif\""
-BAR = ["#f5b041", "#e59866", "#c39bd3", "#7fb3d5", "#76d7c4", "#9a9aa6"]
+BAR = ["#f5b041", "#e59866", "#c39bd3", "#7fb3d5", "#76d7c4", "#9a9aa6", "#ec7063"]
+IGNORED_LANGS = {"Batchfile"}  # helper scripts, not a language I work in
 
 
 def get(path):
@@ -51,7 +52,7 @@ def collect():
     shas, days, langs = set(), set(), Counter()
     for r in repos:
         name = r["full_name"]
-        langs.update(get(f"/repos/{name}/languages"))
+        langs.update({k: v for k, v in get(f"/repos/{name}/languages").items() if k not in IGNORED_LANGS})
         for c in paged(f"/repos/{name}/commits?author={USER}"):
             if c["sha"] not in shas:
                 shas.add(c["sha"])
@@ -102,7 +103,7 @@ def stats_svg(s, asof):
 
 def langs_svg(langs):
     total = sum(langs.values())
-    top = langs.most_common(6)
+    top = langs.most_common(7)
     x, bar = 25, ""
     for i, (_, n) in enumerate(top):
         w = 250 * n / total
