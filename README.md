@@ -24,7 +24,7 @@
 <table>
   <tr>
     <td width="33%" valign="top">
-      <b>🧮 Mathematics &amp; computing</b><br/><br/>
+      <b>🧮 Stochastic processes &amp; statistics</b><br/><br/>
       Probability theory · Statistics · Stochastic processes · Stylized facts · Optimization · Time series · Scientific &amp; quantum computing
     </td>
     <td width="33%" valign="top">
