@@ -124,11 +124,11 @@
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.shion.dev/api?username=SRIJANM-149&theme=transparent&hide_border=true&include_all_commits=true&count_private=false&show_icons=true&title_color=f5b041&icon_color=f5b041&text_color=9a9aa6" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=SRIJANM-149&theme=transparent&hide_border=true&layout=compact&title_color=f5b041&text_color=9a9aa6" alt="Top languages"/>
+  <img src="stats.svg" alt="GitHub stats" height="190"/>
+  <img src="langs.svg" alt="Most used languages" height="190"/>
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=SRIJANM-149&theme=transparent&hide_border=true&ring=f5b041&fire=f5b041&currStreakLabel=f5b041&sideLabels=9a9aa6&dates=9a9aa6&currStreakNum=9a9aa6&sideNums=9a9aa6" alt="GitHub streak"/>
+  <img src="activity.svg" alt="Commit activity" height="115"/>
 </p>
 
 <p align="center"><img src="divider.svg" alt="" width="100%"/></p>
