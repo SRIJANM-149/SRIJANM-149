@@ -25,7 +25,7 @@
   <tr>
     <td width="33%" valign="top">
       <b>🧮 Stochastic processes &amp; statistics</b><br/><br/>
-      Probability theory · Stylized facts · Optimization · Time series
+      Probability theory · Stochastic calculus · Markov processes · Statistical inference · Bayesian statistics · Hypothesis testing · Regression analysis · Multivariate statistics · Time series · Monte Carlo methods · Stylized facts · Optimization
     </td>
     <td width="33%" valign="top">
       <b>💰 Quantitative finance</b><br/><br/>
