@@ -130,6 +130,10 @@
 <p align="center">
   <img src="activity.svg" alt="Commit activity" height="115"/>
 </p>
+<p align="center">
+  <a href="https://github.com/SRIJANM-149/leetcode-solutions"><img src="leetcode.svg" alt="LeetCode stats" height="140"/></a>
+</p>
+<p align="center"><sub>Every accepted solution lives in <a href="https://github.com/SRIJANM-149/leetcode-solutions">leetcode-solutions</a>.</sub></p>
 
 <p align="center"><img src="divider.svg" alt="" width="100%"/></p>
 

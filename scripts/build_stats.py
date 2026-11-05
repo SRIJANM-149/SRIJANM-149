@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Generates stats.svg, langs.svg and activity.svg from the GitHub API.
+"""Generates stats.svg, langs.svg and activity.svg from the GitHub API, and
+leetcode.svg from LeetCode's public profile data.
 
 Needs GH_TOKEN with read access to the owner's private repos. Only totals are
 written out: no private repo names, messages or code reach the cards.
@@ -11,6 +12,7 @@ from html import escape
 from pathlib import Path
 
 USER = "SRIJANM-149"
+LEETCODE_USER = "Srijan_Q"
 OUT = Path(__file__).resolve().parent.parent
 IST = timezone(timedelta(hours=5, minutes=30))
 TOKEN = os.environ["GH_TOKEN"]
@@ -18,6 +20,7 @@ GOLD, GREY = "#f5b041", "#9a9aa6"
 FONT = "font-family=\"'Segoe UI',Ubuntu,Sans-Serif\""
 BAR = ["#f5b041", "#e59866", "#c39bd3", "#7fb3d5", "#76d7c4", "#9a9aa6", "#ec7063"]
 IGNORED_LANGS = {"Batchfile"}  # helper scripts, not a language I work in
+DIFFICULTY = [("Easy", "#00b8a3"), ("Medium", "#ffc01e"), ("Hard", "#ef4743")]
 
 
 def get(path):
@@ -67,6 +70,30 @@ def collect():
         "issues": count("issue"),
         "days": days,
         "langs": langs,
+    }
+
+
+def leetcode():
+    query = """query($u: String!) {
+      allQuestionsCount { difficulty count }
+      matchedUser(username: $u) {
+        submitStatsGlobal { acSubmissionNum { difficulty count submissions } }
+        languageProblemCount { languageName problemsSolved }
+      }
+    }"""
+    req = urllib.request.Request(
+        "https://leetcode.com/graphql",
+        data=json.dumps({"query": query, "variables": {"u": LEETCODE_USER}}).encode(),
+        headers={"Content-Type": "application/json", "Referer": "https://leetcode.com", "User-Agent": "Mozilla/5.0"},
+    )
+    with urllib.request.urlopen(req, timeout=60) as r:
+        data = json.load(r)["data"]
+    user = data["matchedUser"]
+    return {
+        "total": {q["difficulty"]: q["count"] for q in data["allQuestionsCount"]},
+        "solved": {q["difficulty"]: q["count"] for q in user["submitStatsGlobal"]["acSubmissionNum"]},
+        "accepted": next(q["submissions"] for q in user["submitStatsGlobal"]["acSubmissionNum"] if q["difficulty"] == "All"),
+        "langs": sorted(((l["languageName"], l["problemsSolved"]) for l in user["languageProblemCount"]), key=lambda x: -x[1]),
     }
 
 
@@ -129,6 +156,31 @@ def activity_svg(s, last):
     return card(600, 115, "Activity", body, label)
 
 
+def leetcode_svg(lc, asof):
+    solved = lc["solved"]
+    body = (f'<text x="95" y="84" fill="{GOLD}" font-size="34" font-weight="700" text-anchor="middle">{solved["All"]:,}</text>'
+            f'<text x="95" y="106" fill="{GREY}" font-size="12" text-anchor="middle">problems solved</text>')
+    x, bar = 200.0, ""
+    for name, colour in DIFFICULTY:
+        w = 375 * solved[name] / max(solved["All"], 1)
+        if w:
+            bar += f'<rect x="{x:.2f}" y="58" width="{w:.2f}" height="8" fill="{colour}"/>'
+        x += w
+    if not bar:
+        bar = f'<rect x="200" y="58" width="375" height="8" fill="{GREY}" opacity=".25"/>'
+    for i, (name, colour) in enumerate(DIFFICULTY):
+        cx = 200 + i * 125
+        bar += (f'<circle cx="{cx + 5}" cy="86" r="5" fill="{colour}"/>'
+                f'<text x="{cx + 16}" y="90" fill="{GREY}" font-size="12">{name} '
+                f'<tspan font-weight="700">{solved[name]}</tspan> / {lc["total"][name]:,}</text>')
+    langs = ", ".join(f"{n} {c}" for n, c in lc["langs"]) or "none yet"
+    bar += (f'<text x="200" y="118" fill="{GREY}" font-size="11">{lc["accepted"]:,} accepted submissions · '
+            f'{escape(langs)} · as of {asof}</text>')
+    label = (f"LeetCode: {solved['All']} problems solved, " +
+             ", ".join(f"{n} {solved[n]} of {lc['total'][n]}" for n, _ in DIFFICULTY) + f", languages {langs}")
+    return card(600, 140, f"LeetCode · {LEETCODE_USER}", body + bar, label)
+
+
 def main():
     s = collect()
     d = max(s["days"])
@@ -136,6 +188,14 @@ def main():
     (OUT / "stats.svg").write_text(stats_svg(s, last), encoding="utf-8", newline="\n")
     (OUT / "langs.svg").write_text(langs_svg(s["langs"]), encoding="utf-8", newline="\n")
     (OUT / "activity.svg").write_text(activity_svg(s, last), encoding="utf-8", newline="\n")
+    try:
+        lc = leetcode()
+    except Exception as e:  # LeetCode being down shouldn't block the GitHub cards
+        print("LeetCode fetch failed, keeping the old card:", e)
+    else:
+        today = datetime.now(IST).date()
+        (OUT / "leetcode.svg").write_text(leetcode_svg(lc, f"{today:%b} {today.day}, {today.year}"), encoding="utf-8", newline="\n")
+        print("leetcode", lc["solved"], lc["langs"])
     total = sum(s["langs"].values())
     print({k: s[k] for k in ("commits", "repos", "stars", "prs", "issues")}, "active_days", len(s["days"]),
           "longest", longest_streak(s["days"]), "last", last,
