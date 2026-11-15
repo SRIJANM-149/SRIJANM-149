@@ -71,19 +71,19 @@
   <tr>
     <td width="50%" valign="top">
       <h4>📦 <a href="https://github.com/Alpha-Stochastic-Research/asr-quant">ASRQuant</a></h4>
-      Open-source Python library for quant research: 84 modules covering curves, credit, derivatives, portfolios and backtesting. I led the independent validation of the 1.3.0 release: put–call parity, implied-vol round trips, curve repricing, CDS hazard recovery. Shipped with 336 passing tests.<br/><br/>
+      <a href="https://github.com/Alpha-Stochastic-Research">Alpha Stochastic Research</a>'s open-source Python library for quant research: 84 modules and 258 public functions and classes covering curves, credit, derivatives, portfolios and backtesting. I led the independent validation of the 1.3.0 release: put–call parity, implied-vol round trips, curve repricing, CDS hazard recovery. Shipped with 336 passing tests.<br/><br/>
       <a href="https://pypi.org/project/asrquant/"><img src="https://img.shields.io/pypi/v/asrquant?style=flat-square&label=PyPI&color=3775A9" alt="PyPI"/></a>
       <img src="https://img.shields.io/badge/-Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
     </td>
     <td width="50%" valign="top">
-      <h4>⚙️ <a href="https://www.asr-lab.online/qforge/">QForge</a></h4>
+      <h4>⚙️ <a href="https://www.asr-lab.online/technology/">QForge</a></h4>
       Proprietary C++20 engine that turns validated research into strategies, with deterministic replay, risk-constrained simulation and evidence that can be reviewed independently before anything ships.<br/><br/>
       <img src="https://img.shields.io/badge/-C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++20"/>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚽ <a href="https://github.com/SRIJANM-149/Premiere-Lock">PremierLock</a> <sub><i>in progress</i></sub></h4>
+      <h4>⚽ PremierLock <sub><i>in progress · repo coming soon</i></sub></h4>
       End-to-end Premier League engine: Dixon–Coles goal model and Monte Carlo season sims for title, top-four and relegation odds, xG/xPts regression flags, transfer-value forecasts and an FPL optimiser as a MILP.<br/><br/>
       <img src="https://img.shields.io/badge/-Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
       <img src="https://img.shields.io/badge/-XGBoost-189FDD?style=flat-square" alt="XGBoost"/>
