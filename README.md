@@ -88,10 +88,12 @@
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h4>🎯 <a href="https://www.asr-lab.online/technology/">Zeta</a> <sub><i>release candidate 2 in development</i></sub></h4>
-      <a href="https://noethermeridian.com/">Noether Meridian</a>'s proprietary liquid decision terminal, built for constrained quantitative decisions. I own Zeta and lead development of its second release candidate. ASR's modelling and validation research feeds into it, under the same rule as everything else: no result counts until it has been independently checked.<br/><br/>
-      <img src="https://img.shields.io/badge/-Decision%20modelling-6E40C9?style=flat-square" alt="Decision modelling"/>
-      <img src="https://img.shields.io/badge/-Validation-2EA44F?style=flat-square" alt="Validation"/>
+      <h4>ζ <a href="https://www.asr-lab.online/technology/">Zeta</a> <sub><i>release candidate 2 in development</i></sub></h4>
+      <a href="https://noethermeridian.com/">Noether Meridian</a>'s proprietary liquidity decision engine and terminal. Given a book of positions, a catalogue of candidate tickets and a set of scenarios, it finds the decision with the lowest modelled worst-case cost while keeping dated settled cash above a floor, then produces the full evidence: decision ticket, conditional schedule, cash ledger and scenario comparison.<br/><br/>
+      I own Zeta and lead development of RC2, which adds a Rust layer that starts and supervises the C++20 engine. First evidence so far: the RC2 build reproduces RC1 byte-for-byte on 16 frozen cases across two compilers, an independent recomputation of every cost and cash ledger matches to the cent (350 checks, 0 failures), and 5.5M sanitizer fuzz inputs found no fault.<br/>
+      <sub><i>Research software on constructed inputs. RC2 is a draft and has not passed a release gate yet.</i></sub><br/><br/>
+      <img src="https://img.shields.io/badge/-C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++20"/>
+      <img src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
       <a href="https://www.asr-lab.online/partnerships/"><img src="https://img.shields.io/badge/-Research%20collaboration-111111?style=flat-square" alt="Research collaboration"/></a>
     </td>
   </tr>
