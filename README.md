@@ -11,6 +11,11 @@
   <img src="https://komarev.com/ghpvc/?username=SRIJANM-149&style=flat-square&color=555555&label=profile+views" alt="Profile views"/>
 </p>
 
+<p align="center">
+  🤝 <b>Open to research collaboration</b> in stochastic processes, quantitative finance and sports analytics.<br/>
+  <sub>Have a problem, a dataset or a paper idea? <a href="mailto:srijanmishra070306@gmail.com">Email me</a> or reach out on <a href="https://www.linkedin.com/in/srijanmishra2006/">LinkedIn</a>.</sub>
+</p>
+
 ### 💫 About me
 
 <p align="center">
@@ -79,6 +84,15 @@
       <h4>⚙️ <a href="https://www.asr-lab.online/technology/">QForge</a></h4>
       Proprietary C++20 engine that turns validated research into strategies, with deterministic replay, risk-constrained simulation and evidence that can be reviewed independently before anything ships.<br/><br/>
       <img src="https://img.shields.io/badge/-C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++20"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h4>🎯 <a href="https://www.asr-lab.online/technology/">Zeta Decision Engine</a> <sub><i>technical validation ongoing</i></sub></h4>
+      An initiative addressing constrained quantitative decisions. ASR's modelling and validation research feeds into it, with the same rule as everything else: no result counts until it has been independently checked.<br/><br/>
+      <img src="https://img.shields.io/badge/-Decision%20modelling-6E40C9?style=flat-square" alt="Decision modelling"/>
+      <img src="https://img.shields.io/badge/-Validation-2EA44F?style=flat-square" alt="Validation"/>
+      <a href="https://www.asr-lab.online/partnerships/"><img src="https://img.shields.io/badge/-Research%20collaboration-111111?style=flat-square" alt="Research collaboration"/></a>
     </td>
   </tr>
   <tr>
