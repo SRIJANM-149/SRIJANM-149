@@ -88,8 +88,8 @@
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h4>🎯 <a href="https://www.asr-lab.online/technology/">Zeta Decision Engine</a> <sub><i>technical validation ongoing</i></sub></h4>
-      An initiative addressing constrained quantitative decisions. ASR's modelling and validation research feeds into it, with the same rule as everything else: no result counts until it has been independently checked.<br/><br/>
+      <h4>🎯 <a href="https://www.asr-lab.online/technology/">Zeta</a> <sub><i>release candidate 2 in development</i></sub></h4>
+      <a href="https://noethermeridian.com/">Noether Meridian</a>'s proprietary liquid decision terminal, built for constrained quantitative decisions. I own Zeta and lead development of its second release candidate. ASR's modelling and validation research feeds into it, under the same rule as everything else: no result counts until it has been independently checked.<br/><br/>
       <img src="https://img.shields.io/badge/-Decision%20modelling-6E40C9?style=flat-square" alt="Decision modelling"/>
       <img src="https://img.shields.io/badge/-Validation-2EA44F?style=flat-square" alt="Validation"/>
       <a href="https://www.asr-lab.online/partnerships/"><img src="https://img.shields.io/badge/-Research%20collaboration-111111?style=flat-square" alt="Research collaboration"/></a>
